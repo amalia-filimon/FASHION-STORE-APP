@@ -25,7 +25,6 @@ A full-stack web application for managing an online fashion store, consisting of
 ## 📊 Features
 
 * User Registration and Login
-* JWT-based Authentication
 * Product Catalog with Filtering
 * Add to Cart / Remove from Cart
 * Place Orders
@@ -36,7 +35,7 @@ A full-stack web application for managing an online fashion store, consisting of
 ## 🔄 API Overview (Backend)
 
 * `POST /api/auth/register` – Register new users
-* `POST /api/auth/login` – Authenticate users and return JWT
+* `POST /api/auth/login` – Authenticate users
 * `GET /api/products` – Get all products
 * `POST /api/cart` – Add item to cart
 * `GET /api/cart` – Get user cart
